@@ -37,13 +37,11 @@ const data = [
 ];
 
 class App extends React.Component {
-  // Constructor with state
   
   constructor() {
     super();
     this.state = {
-      todos: data,
-      otherState: "this other state"
+      todos: data
     };
     this.toggleCompleted = this.toggleCompleted.bind(this);
   }
